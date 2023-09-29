@@ -25,6 +25,16 @@ public class TuringTafel {
         tafel.put("q1-1", "1-S-q1");
     }
 
+    public void tmHallo(){
+        tafel.put("q0-0", "H-R-q1");
+        tafel.put("q1-0", "a-R-q2");
+        tafel.put("q2-0", "l-R-q3");
+        tafel.put("q3-0", "l-R-q4");
+        tafel.put("q4-0", "o-S-q0");
+
+
+    }
+
     
 
 

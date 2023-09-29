@@ -8,7 +8,8 @@ public class Tester{
         Zentraleinheit ZE = new Zentraleinheit();
 
         //turingTafel.useT1();
-        turingTafel.bieberN2();
+        //turingTafel.bieberN2();
+        turingTafel.tmHallo();
 
         /*/
         System.out.println(turingTafel.tafel.get("q0-0"));
