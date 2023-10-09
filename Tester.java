@@ -1,15 +1,17 @@
 public class Tester{
     public static void main(String[] args){
+
+        String nonstorLR1delete = "|11111111011111111|";
+        String standard="00000000000000000000";
         
-        Band band1 = new Band("0000000000");
+        Band band1 = new Band(nonstorLR1delete);
         SLKopf kopf1 = new SLKopf();
-        kopf1.pos=4;
+        kopf1.pos=band1.bandLaenge/2;
         TuringTafel turingTafel = new TuringTafel();
         Zentraleinheit ZE = new Zentraleinheit();
 
         //turingTafel.useT1();
-        //turingTafel.bieberN2();
-        turingTafel.tmHallo();
+        turingTafel.nonStopLR1delete();;
 
         /*/
         System.out.println(turingTafel.tafel.get("q0-0"));
